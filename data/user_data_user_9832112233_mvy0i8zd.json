@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-11-01T15:56:03.961Z",
+  "shopSettings": {
+    "shopName": "Maa Tara Digital Cyber",
+    "shopNameBn": "Maa Tara Digital Cyber",
+    "ownerName": "Maa Tara Digital Cyber",
+    "phone": "9832112233",
+    "email": "9832112233@shop.local",
+    "address": "",
+    "gstinOrReg": "",
+    "receiptFooterMessage": "Thank you for visiting Maa Tara Digital Cyber! Please visit again.",
+    "currencySymbol": "₹",
+    "upiId": "",
+    "smsSettings": {
+      "smsEnabled": true,
+      "smsLanguage": "both",
+      "gatewayProvider": "fast2sms",
+      "senderId": "RDMCTR"
+    }
+  },
+  "categories": [
+    {
+      "id": "cat-xerox",
+      "name": "Xerox",
+      "nameBn": "জেরক্স",
+      "icon": "Copy",
+      "color": "blue",
+      "isDefault": true
+    },
+    {
+      "id": "cat-print",
+      "name": "Print",
+      "nameBn": "প্রিন্ট",
+      "icon": "Printer",
+      "color": "indigo",
+      "isDefault": true
+    },
+    {
+      "id": "cat-photo",
+      "name": "Photo",
+      "nameBn": "ফটো",
+      "icon": "Camera",
+      "color": "cyan",
+      "isDefault": true
+    },
+    {
+      "id": "cat-online-form",
+      "name": "Online Form",
+      "nameBn": "অনলাইন ফর্ম",
+      "icon": "FileText",
+      "color": "emerald",
+      "isDefault": true
+    },
+    {
+      "id": "cat-recharge",
+      "name": "Recharge",
+      "nameBn": "রিচার্জ",
+      "icon": "Smartphone",
+      "color": "violet",
+      "isDefault": true
+    },
+    {
+      "id": "cat-money-transfer",
+      "name": "Money Transfer",
+      "nameBn": "মানি ট্রান্সফার",
+      "icon": "ArrowRightLeft",
+      "color": "amber",
+      "isDefault": true
+    },
+    {
+      "id": "cat-banking",
+      "name": "Banking Service",
+      "nameBn": "ব্যাংকিং সেবা (AEPS)",
+      "icon": "Building2",
+      "color": "teal",
+      "isDefault": true
+    },
+    {
+      "id": "cat-ticket",
+      "name": "Ticket Booking",
+      "nameBn": "টিকিট বুকিং",
+      "icon": "Ticket",
+      "color": "orange",
+      "isDefault": true
+    },
+    {
+      "id": "cat-lamination",
+      "name": "Lamination",
+      "nameBn": "লেমিনেশন",
+      "icon": "Layers",
+      "color": "purple",
+      "isDefault": true
+    },
+    {
+      "id": "cat-scan",
+      "name": "Scan",
+      "nameBn": "স্ক্যান",
+      "icon": "Scan",
+      "color": "sky",
+      "isDefault": true
+    },
+    {
+      "id": "cat-passport-photo",
+      "name": "Passport Photo",
+      "nameBn": "পাসপোর্ট ফটো",
+      "icon": "UserCheck",
+      "color": "rose",
+      "isDefault": true
+    },
+    {
+      "id": "cat-pancard",
+      "name": "PAN Card Service",
+      "nameBn": "প্যান কার্ড সার্ভিস",
+      "icon": "CreditCard",
+      "color": "amber",
+      "isDefault": true
+    },
+    {
+      "id": "cat-aadhaar-voter",
+      "name": "Aadhaar & Voter",
+      "nameBn": "আধার ও ভোটার সেবা",
+      "icon": "FileCheck",
+      "color": "emerald",
+      "isDefault": true
+    },
+    {
+      "id": "cat-electricity-bill",
+      "name": "Electricity / Bill Pay",
+      "nameBn": "বিদ্যুৎ বিল ও রিচার্জ",
+      "icon": "Zap",
+      "color": "yellow",
+      "isDefault": true
+    },
+    {
+      "id": "cat-pvc-card",
+      "name": "PVC Card Print",
+      "nameBn": "পিভিসি স্মার্ট কার্ড",
+      "icon": "CreditCard",
+      "color": "blue",
+      "isDefault": true
+    },
+    {
+      "id": "cat-certificates",
+      "name": "Certificates Apply",
+      "nameBn": "সার্টিফিকেট আবেদন",
+      "icon": "Award",
+      "color": "cyan",
+      "isDefault": true
+    },
+    {
+      "id": "cat-other",
+      "name": "Other",
+      "nameBn": "অন্যান্য ডিজিটাল সেবা",
+      "icon": "MoreHorizontal",
+      "color": "slate",
+      "isDefault": true
+    }
+  ],
+  "dailyBalances": {
+    "2026-11-01": {
+      "id": "2026-11-01",
+      "date": "2026-11-01",
+      "openingCash": 0,
+      "openingBank": 0,
+      "note": "Initial setup opening balance",
+      "createdAt": "2026-11-01T15:56:03.961Z",
+      "updatedAt": "2026-11-01T15:56:03.961Z",
+      "userId": "user_9832112233_mvy0i8zd"
+    }
+  },
+  "transactions": [],
+  "receipts": [],
+  "khataParties": [],
+  "khataEntries": [],
+  "smsLogs": [],
+  "simSmsQueue": [],
+  "users": [
+    {
+      "id": "user_9832112233_mvy0i8zd",
+      "email": "9832112233@shop.local",
+      "name": "Maa Tara Digital Cyber",
+      "shopName": "Maa Tara Digital Cyber",
+      "role": "owner",
+      "phone": "9832112233",
+      "createdAt": "2026-11-01T15:56:03.961Z"
+    }
+  ]
+}

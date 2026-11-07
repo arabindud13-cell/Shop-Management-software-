@@ -1,0 +1,12 @@
+[
+  
+  {
+    "id": "user_9832112233_mvy0i8zd",
+    "shopName": "Maa Tara Digital Cyber",
+    "mobile": "9832112233",
+    "salt": "04d29029031318fea149b84d164003f5",
+    "passwordHash": "d054572b2d67698b626a69caad6949ad826aa414bdd5ad2dcc05e576b9bd48ad",
+    "role": "owner",
+    "createdAt": "2026-11-01T15:56:03.961Z"
+  }
+]

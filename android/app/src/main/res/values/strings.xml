@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Radha Madhab SIM SMS</string>
+    <string name="app_full_name">Radha Madhab Online Center — SIM SMS Sender</string>
+    <string name="pending_sms_title">Pending SMS Requests</string>
+    <string name="channel_name">Customer Due Alerts</string>
+    <string name="channel_description">Notifications for pending customer due reminder SMS</string>
+    <string name="confirm_send_sms">Confirm Send SMS</string>
+    <string name="send_sms_button">Send SMS via SIM</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="sms_sent_success">SMS successfully sent through SIM card</string>
+    <string name="permission_required">SMS permission is required to send messages through your phone SIM card</string>
+</resources>

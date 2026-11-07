@@ -1,0 +1,344 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Hind Siliguri', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(3, 7, 18, 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(71, 85, 105, 0.8);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 1);
+}
+
+/* ============================================================
+   1. DARK MODE: High-Contrast Surfaces + Crisp White & Bright Accents
+   ============================================================ */
+
+html:not(.light) {
+  color-scheme: dark;
+}
+
+html:not(.light) body {
+  background-color: #030712 !important; /* Pitch Dark Surface */
+  color: #ffffff !important;           /* Pure White Text */
+}
+
+/* Dark mode surface elevations */
+html:not(.light) .bg-slate-950,
+html:not(.light) .bg-slate-950\/90,
+html:not(.light) .bg-slate-950\/80,
+html:not(.light) .bg-slate-950\/70,
+html:not(.light) .bg-slate-950\/60 {
+  background-color: #020617 !important;
+  color: #ffffff !important;
+}
+
+html:not(.light) .bg-slate-900,
+html:not(.light) .bg-slate-900\/90,
+html:not(.light) .bg-slate-900\/80,
+html:not(.light) .bg-slate-900\/70 {
+  background-color: #0b1120 !important;
+  color: #ffffff !important;
+}
+
+html:not(.light) .bg-slate-800,
+html:not(.light) .bg-slate-800\/90,
+html:not(.light) .bg-slate-800\/80,
+html:not(.light) .bg-slate-800\/70 {
+  background-color: #111c33 !important;
+  color: #ffffff !important;
+}
+
+/* High-contrast text colors in Dark Mode */
+html:not(.light) .text-slate-400 {
+  color: #e2e8f0 !important; /* Crisp silver-white: 11:1 contrast on dark */
+}
+
+html:not(.light) .text-slate-300 {
+  color: #f8fafc !important; /* Bright white: 14:1 contrast */
+}
+
+html:not(.light) .text-slate-200 {
+  color: #ffffff !important; /* Pure white */
+}
+
+html:not(.light) .text-slate-500 {
+  color: #cbd5e1 !important; /* Clear readable silver */
+}
+
+/* Accents in Dark Mode */
+html:not(.light) .text-amber-300,
+html:not(.light) .text-amber-400 {
+  color: #fcd34d !important;
+}
+
+html:not(.light) .text-emerald-300,
+html:not(.light) .text-emerald-400 {
+  color: #34d399 !important;
+}
+
+html:not(.light) .text-rose-300,
+html:not(.light) .text-rose-400 {
+  color: #fb7185 !important;
+}
+
+html:not(.light) .text-blue-300,
+html:not(.light) .text-blue-400 {
+  color: #60a5fa !important;
+}
+
+/* Form inputs in Dark Mode */
+html:not(.light) input,
+html:not(.light) select,
+html:not(.light) textarea {
+  background-color: #020617 !important;
+  color: #ffffff !important;
+  border-color: #334155 !important;
+}
+
+html:not(.light) input::placeholder,
+html:not(.light) textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+html:not(.light) input:focus,
+html:not(.light) select:focus,
+html:not(.light) textarea:focus {
+  background-color: #060d1f !important;
+  color: #ffffff !important;
+  border-color: #f59e0b !important;
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.25) !important;
+}
+
+/* Modal backdrop overlay */
+html:not(.light) .fixed.inset-0 {
+  background-color: rgba(2, 6, 23, 0.88) !important;
+}
+
+
+/* ============================================================
+   2. LIGHT MODE: Clean Light Surfaces + Deep Crisp Dark Text
+   ============================================================ */
+
+html.light {
+  color-scheme: light;
+}
+
+html.light body {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+html.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+html.light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
+
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Light mode card & panel surfaces */
+html.light .bg-slate-950,
+html.light .bg-slate-950\/95,
+html.light .bg-slate-950\/90,
+html.light .bg-slate-950\/80,
+html.light .bg-slate-950\/70 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+html.light .bg-slate-900,
+html.light .bg-slate-900\/95,
+html.light .bg-slate-900\/90,
+html.light .bg-slate-900\/80,
+html.light .bg-slate-900\/70 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+html.light .bg-slate-800,
+html.light .bg-slate-800\/90,
+html.light .bg-slate-800\/80,
+html.light .bg-slate-800\/70 {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+html.light .hover\:bg-slate-800:hover,
+html.light .hover\:bg-slate-700:hover,
+html.light .hover\:bg-slate-750:hover {
+  background-color: #e2e8f0 !important;
+}
+
+/* Borders in Light Mode */
+html.light .border-slate-800,
+html.light .border-slate-800\/80,
+html.light .border-slate-700,
+html.light .border-slate-700\/80,
+html.light .border-slate-700\/60 {
+  border-color: #e2e8f0 !important;
+}
+
+/* Text Hierarchy in Light Mode (high contrast on white/light gray) */
+html.light .text-slate-100,
+html.light .text-slate-200 {
+  color: #0f172a !important; /* Pure crisp dark */
+}
+
+html.light .text-slate-300 {
+  color: #1e293b !important; /* Dark slate */
+}
+
+html.light .text-slate-400 {
+  color: #334155 !important; /* Deep charcoal: 7:1 contrast on white */
+}
+
+html.light .text-slate-500 {
+  color: #475569 !important; /* Readable medium charcoal: 5:1 contrast */
+}
+
+/* Accents in Light Mode: Darker, rich, vibrant */
+html.light .text-amber-300,
+html.light .text-amber-400 {
+  color: #b45309 !important; /* Rich amber brown */
+}
+
+html.light .text-emerald-300,
+html.light .text-emerald-400 {
+  color: #047857 !important; /* Rich emerald */
+}
+
+html.light .text-rose-300,
+html.light .text-rose-400 {
+  color: #be123c !important; /* Rich ruby rose */
+}
+
+html.light .text-blue-300,
+html.light .text-blue-400 {
+  color: #1d4ed8 !important; /* Rich sapphire blue */
+}
+
+html.light .text-teal-400 {
+  color: #0f766e !important;
+}
+
+html.light .text-violet-400 {
+  color: #6d28d9 !important;
+}
+
+/* PROTECT TEXT IN COLORED BUTTONS & GRADIENTS IN LIGHT MODE */
+html.light .bg-blue-600,
+html.light .bg-blue-500,
+html.light .bg-emerald-600,
+html.light .bg-emerald-500,
+html.light .bg-rose-600,
+html.light .bg-rose-500,
+html.light .bg-indigo-600,
+html.light .bg-violet-600,
+html.light .bg-gradient-to-r,
+html.light .bg-gradient-to-tr,
+html.light .bg-gradient-to-br {
+  /* Keep background gradients visible */
+}
+
+html.light button.bg-blue-600,
+html.light button.bg-blue-500,
+html.light button.bg-emerald-600,
+html.light button.bg-emerald-500,
+html.light button.bg-rose-600,
+html.light button.bg-rose-500,
+html.light button.bg-indigo-600,
+html.light button.bg-violet-600,
+html.light .bg-blue-600 *,
+html.light .bg-blue-500 *,
+html.light .bg-emerald-600 *,
+html.light .bg-emerald-500 *,
+html.light .bg-rose-600 *,
+html.light .bg-rose-500 *,
+html.light .bg-indigo-600 *,
+html.light .bg-violet-600 * {
+  color: #ffffff !important;
+}
+
+/* Protect amber button dark text */
+html.light .bg-amber-500,
+html.light button.bg-amber-500,
+html.light .bg-amber-400,
+html.light button.bg-amber-400 {
+  color: #020617 !important;
+}
+
+/* Form inputs in Light Mode */
+html.light input:not([type="checkbox"]):not([type="radio"]),
+html.light select,
+html.light textarea {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+html.light input:focus,
+html.light select:focus,
+html.light textarea:focus {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #3b82f6 !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Modal dark overlay in light mode */
+html.light .fixed.inset-0 {
+  background-color: rgba(15, 23, 42, 0.75) !important;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  header, aside, .print\:hidden, nav {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Thermal POS receipt specific styling */
+  .thermal-receipt-print {
+    width: 80mm !important;
+    max-width: 80mm !important;
+    font-size: 11px !important;
+    margin: 0 auto !important;
+    padding: 2mm !important;
+  }
+}

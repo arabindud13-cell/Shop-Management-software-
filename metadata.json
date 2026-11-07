@@ -1,0 +1,6 @@
+{
+  "name": "রাধা মাধব অনলাইন সেন্টার - Shop Management",
+  "description": "Daily accounting and transaction management system for Radhamadhab Online Center - cash, bank balance, Xerox, recharge, money transfer, and digital services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
